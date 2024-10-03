@@ -1,4 +1,5 @@
 import AllSelectorBasic from "./pages/AllSelectorBasic"
+import SelectingRowsInTable from "./pages/SelectingRowsInTable"
 
 
 
@@ -6,7 +7,8 @@ function App() {
 
   return (
     <>
-      <AllSelectorBasic />
+      {/* <AllSelectorBasic /> */}
+      <SelectingRowsInTable />
     </>
   )
 }
