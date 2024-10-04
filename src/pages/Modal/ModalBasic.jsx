@@ -12,7 +12,9 @@ const ModalBasic = () => {
         Open Modal
       </button>
 
-      <Mymodal onClose={handleOnClose} visible={showMyModal} /> 
+      <Mymodal onClose={handleOnClose} visible={showMyModal}>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </Mymodal>
     </>
   )
 }
